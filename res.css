@@ -1,0 +1,619 @@
+/*RESPONSIVE CSS*/
+@media only screen and (max-width: 320px) {
+  /*HEAD*/
+  .head {
+    display: none;
+  }
+
+  /*HEADER*/
+  .header {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+
+  /*HERO*/
+  .hero {
+    text-align: center;
+    height: 110vh;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .hero > .hero-txt > pre {
+    margin-left: -50px;
+    font-size: 10px;
+  }
+  .hero > .hero-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*ABOUT US*/
+  .about {
+    flex-direction: column-reverse;
+    height: 350vh;
+  }
+  .about > .about-rt > pre {
+    display: none;
+  }
+  .about > .about-rt {
+    width: 100%;
+    text-align: center;
+  }
+  .about > .about-rt > .btn1 {
+    margin-left: 10%;
+  }
+  .about > .about-lf {
+    width: 100%;
+  }
+  .about > .about-lf > .ab-img1 {
+    position: relative;
+    top: 0%;
+    left: -10%;
+    margin: 2%;
+    width: 300px;
+  }
+  .about > .about-lf > .ab-img2 {
+    position: relative;
+    top: 0%;
+    left: -10%;
+    margin: 2%;
+    width: 300px;
+  }
+
+  /*SERVICES*/
+  .service {
+    padding: 5%;
+    height: 480vh;
+  }
+  .service > .service-option > .clean {
+    width: 100%;
+  }
+
+  /*WHY CHOOSE US*/
+  .why-us {
+    flex-direction: column;
+    height: 360vh;
+    padding: 0 3% 0 3%;
+    text-align: center;
+  }
+  .why-us > .why-us-txt > {
+    width: 100%;
+  }
+  .why-us > .why-us-txt > .why-us-div > .why-us-divv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    background-color: aliceblue;
+  }
+  .why-us > .why-us-pic > img {
+    width: 300px;
+  }
+
+  /*TEAM*/
+  .team > .team-div {
+    flex-direction: column;
+  }
+  .team > .team-div > .team-div-divv {
+    width: 100%;
+  }
+  .team > .team-div > .team-div-divv > img {
+    width: 250px;
+  }
+
+  /*WORK SECTION*/
+  .work {
+    text-align: center;
+  }
+  .work > .work-img {
+    flex-direction: column;
+  }
+
+  /*PRICING PLANS*/
+  .pricing > .plans {
+    flex-direction: column;
+  }
+  .pricing > .plans > .pricing-plans {
+    width: 100%;
+  }
+  .pricing > .plans > .pricing-plans > .btn1 {
+    margin-left: 21px;
+  }
+
+  /*TESTIMONIAL*/
+  .test {
+    padding: 0%;
+    text-align: center;
+  }
+  .test > .test-card {
+    flex-direction: column;
+    margin: 10%;
+  }
+  .test > .test-card > .div1 {
+    width: 250px;
+    height: 380px;
+  }
+  .test > .test-card > .div2 {
+    width: 250px;
+    height: 380px;
+  }
+  .test > .test-card > div > .test-card-profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*OUR PROJECTS*/
+  .projects {
+    text-align: center;
+    margin: 10px;
+  }
+  .projects-images > div > img {
+    width: 300px;
+    margin: 10px;
+  }
+
+  /*FOOTER*/
+  .footer {
+    height: 1500px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .footer > .foot-data {
+    width: 100%;
+    text-align: center;
+  }
+  .footer > .data-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer > .foot-data > .social-links {
+    justify-content: center;
+  }
+  .footer > .foot-data > .diiv > .email {
+    height: 50px;
+    width: 160px;
+    outline: none;
+  }
+  .footer > .foot-data > .diiv {
+    padding: 0;
+    margin: 0;
+  }
+}
+/*RESPONSIVE CSS*/
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+  /*HEAD*/
+  .head {
+    display: none;
+  }
+
+  /*HEADER*/
+  .header {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+
+  /*HERO*/
+  .hero {
+    text-align: center;
+    height: 140vh;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .hero > .hero-txt > pre {
+    margin-left: -50px;
+    font-size: 10px;
+  }
+  .hero > .hero-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*ABOUT US*/
+  .about {
+    flex-direction: column-reverse;
+    height: 350vh;
+  }
+  .about > .about-rt > pre {
+    display: none;
+  }
+  .about > .about-rt {
+    width: 100%;
+    text-align: center;
+  }
+  .about > .about-rt > .btn1 {
+    margin-left: 20%;
+  }
+  .about > .about-lf {
+    width: 100%;
+  }
+  .about > .about-lf > .ab-img1 {
+    position: relative;
+    top: 0%;
+    left: -10%;
+    margin: 2%;
+    width: 350px;
+  }
+  .about > .about-lf > .ab-img2 {
+    position: relative;
+    top: 0%;
+    left: -10%;
+    margin: 2%;
+    width: 350px;
+  }
+
+  /*SERVICES*/
+  .service {
+    padding: 5%;
+    height: 480vh;
+  }
+  .service > .service-option > .clean {
+    width: 100%;
+  }
+
+  /*WHY CHOOSE US*/
+  .why-us {
+    flex-direction: column;
+    height: 360vh;
+    padding: 0 3% 0 3%;
+    text-align: center;
+  }
+  .why-us > .why-us-txt > {
+    width: 100%;
+  }
+  .why-us > .why-us-txt > .why-us-div > .why-us-divv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    background-color: aliceblue;
+  }
+  .why-us > .why-us-pic > img {
+    width: 350px;
+  }
+
+  /*TEAM*/
+  .team > .team-div {
+    flex-direction: column;
+  }
+  .team > .team-div > .team-div-divv {
+    width: 100%;
+  }
+  .team > .team-div > .team-div-divv > img {
+    width: 300px;
+  }
+
+  /*WORK SECTION*/
+  .work {
+    text-align: center;
+  }
+  .work > .work-img {
+    flex-direction: column;
+  }
+
+  /*PRICING PLANS*/
+  .pricing > .plans {
+    flex-direction: column;
+  }
+  .pricing > .plans > .pricing-plans {
+    width: 100%;
+  }
+  .pricing > .plans > .pricing-plans > .btn1 {
+    margin-left: 60px;
+  }
+
+  /*TESTIMONIAL*/
+  .test {
+    padding: 0%;
+    text-align: center;
+  }
+  .test > .test-card {
+    flex-direction: column;
+    margin: 10%;
+  }
+  .test > .test-card > .div1 {
+    width: 320px;
+    height: 350px;
+  }
+  .test > .test-card > .div2 {
+    width: 320px;
+    height: 350px;
+  }
+  .test > .test-card > div > .test-card-profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*OUR PROJECTS*/
+  .projects {
+    text-align: center;
+    margin: 10px;
+  }
+  .projects-images > div > img {
+    width: 350px;
+    margin: 10px;
+  }
+
+  /*FOOTER*/
+  .footer {
+    height: 1500px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .footer > .foot-data {
+    width: 100%;
+    text-align: center;
+  }
+  .footer > .data-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer > .foot-data > .social-links {
+    justify-content: center;
+  }
+  .footer > .foot-data > .diiv > .email {
+    height: 50px;
+    width: 160px;
+    outline: none;
+  }
+  .footer > .foot-data > .diiv {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/*RESPONSIVE CSS*/
+@media only screen and (min-width: 426px) and (max-width: 770px) {
+  /*HEAD*/
+  .head {
+    display: none;
+  }
+
+  /*HEADER*/
+  .header {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+
+  /*ABOUT US*/
+  .about {
+    flex-direction: row;
+    height: 200vh;
+  }
+  .about > .about-rt > pre {
+    display: block;
+    overflow: hidden;
+  }
+  .about > .about-rt {
+    width: 50%;
+    text-align: left;
+  }
+  .about > .about-lf {
+    width: 50%;
+  }
+  .about > .about-lf > .ab-img1 {
+    position: relative;
+    top: 0%;
+    left: -20%;
+    margin: 0%;
+    width: 350px;
+  }
+  .about > .about-lf > .ab-img2 {
+    position: relative;
+    top: 0%;
+    left: -20%;
+    margin: 0%;
+    width: 350px;
+  }
+
+  /*SERVICES*/
+  .service {
+    padding: 5%;
+    height: 200vh;
+  }
+  .service > .service-option > .clean {
+    width: 30%;
+  }
+
+  /*WHY CHOOSE US*/
+  .why-us {
+    height: 130vh;
+  }
+  .why-us > .why-us-pic > img {
+    display: none;
+  }
+  .why-us > .why-us-txt > .why-us-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /*TEAM*/
+  .team > .team-div {
+    flex-direction: row;
+  }
+  .team > .team-div > .team-div-divv {
+    width: 40%;
+  }
+  .team > .team-div > .team-div-divv > img {
+    width: 180px;
+    height: 350px;
+  }
+
+  /*WORK SECTION*/
+  .work > .work-img {
+    gap: 20px;
+  }
+  .work > .work-img > div > img {
+    width: 200px;
+  }
+
+  /*PRICING PLANS*/
+  .pricing > .plans {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pricing > .plans > .pricing-plans {
+    width: 48%;
+  }
+  .pricing > .plans > .pricing-plans > .btn1 {
+    margin-left: 30px;
+  }
+
+  /*TESTIMONIAL*/
+  .test > .test-card {
+    gap: 20px;
+    margin: 0%;
+  }
+  .test > .test-card > .div1 {
+    width: 300px;
+  }
+  .test > .test-card > .div2 {
+    width: 300px;
+  }
+  .test > .test-card > div > .test-card-profile {
+    flex-direction: row;
+  }
+
+  /*OUR PROJECTS*/
+  .projects {
+    text-align: center;
+    margin: 100px 0 0 0;
+  }
+  .projects-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .projects-images > div > img {
+    width: 300px;
+  }
+  .footer {
+    padding: 0%;
+    height: 700px;
+    flex-wrap: nowrap;
+  }
+  .footer > .foot-data {
+    width: 28%;
+    gap: 20px;
+  }
+  .btn2 {
+    display: none;
+  }
+}
+
+/*RESPONSIVE CSS*/
+@media only screen and (min-width: 771px) and (max-width: 1025px) {
+  /*HEAD*/
+  .head {
+    display: none;
+  }
+
+  /*HEADER*/
+  .header {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+
+  /*ABOUT US*/
+  .about {
+    height: 220vh;
+    padding: 2%;
+  }
+  .about > .about-lf > .ab-img1 {
+    top: 10%;
+    left: 2%;
+  }
+  .about > .about-lf > .ab-img2 {
+    top: 52%;
+    left: 15%;
+  }
+
+  /*SERVICES*/
+  .service {
+    padding: 2%;
+  }
+  .service > .service-option {
+    gap: 10px;
+  }
+  .service > .service-option > .clean {
+    width: 31%;
+  }
+
+  /*WHY CHOOSE US*/
+  .why-us {
+    height: 180vh;
+  }
+  .why-us > .why-us-pic > img {
+    width: 400px;
+  }
+
+  /*TEAM*/
+  .team > .team-div > .team-div-divv > img {
+    width: 220px;
+  }
+
+  /*WORK SECTION*/
+  .work {
+    padding: 5%;
+  }
+  .work > .work-img {
+    gap: 30px;
+  }
+  .work > .work-img > div > img {
+    width: 250px;
+  }
+
+  /*PRICING PLANS*/
+  .pricing > .plans {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pricing > .plans > .pricing-plans {
+    width: 45%;
+  }
+  .pricing > .plans > .pricing-plans {
+    height: 600px;
+  }
+
+  /*TESTIMONIAL*/
+  .test > .test-card {
+    flex-direction: row;
+  }
+  .test > .test-card > .div1 {
+    width: 350px;
+    height: 370px;
+  }
+  .test > .test-card > .div2 {
+    width: 350px;
+    height: 370px;
+  }
+  .test > .test-card > div > .test-card-profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*OUR PROJECTS*/
+  .projects {
+    margin: 100px 0px 0px 0px;
+    padding: 0 0 0 0;
+  }
+  .projects-images {
+    display: flex;
+    flex-direction: row;
+  }
+}

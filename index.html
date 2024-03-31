@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/res.css" />
+  </head>
+  <body>
+    <!--HEAD-->
+    <header class="head">
+      <div
+        class="addrs mm bg-warning"
+        style="background-color: black !important"
+      >
+        <p>
+          <i class="fa-regular fa-clock"></i>
+          08.00 - 17.00
+        </p>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          2nd Lorem Ipsum Street
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          example@gmail.com
+        </p>
+      </div>
+      <div class="addrs icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </header>
+
+    <!--HEADER-->
+    <header class="header">
+      <h1>Puresh</h1>
+      <ul>
+        <li>
+          Home
+          <ul>
+            <li>Home Page 1</li>
+            <li>Home Page 2</li>
+          </ul>
+        </li>
+        <li>About</li>
+        <li>
+          Service
+          <ul>
+            <li>Service1</li>
+            <li>Service2</li>
+          </ul>
+        </li>
+        <li>
+          Pages
+          <ul>
+            <li>Page 1</li>
+            <li>Page 2</li>
+            <li>Page 3</li>
+            <li>Page 4</li>
+            <li>Page 5</li>
+          </ul>
+        </li>
+        <li>Contact Us</li>
+      </ul>
+      <button class="btn1">Get A Quote</button>
+    </header>
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Puresh</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Services</a></li>
+                  <li><a class="dropdown-item" href="#">Pages</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Get Quotes</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <container>
+      <!--HERO-->
+      <section class="hero">
+        <div class="hero-txt">
+          <p>WE ARE PURESH</p>
+          <h1>Professional Cleaning Service for Your Home</h1>
+          <pre>
+            Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed doeiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </pre>
+          <button class="btn1">Take Our Service</button>
+        </div>
+      </section>
+
+      <!--ABOUT US-->
+      <section class="about">
+        <div class="about-lf">
+          <img
+            src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/homepage1_aboutus1.jpg"
+            class="ab-img1"
+          />
+          <img
+            src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/homepage1_aboutus2.jpg"
+            class="ab-img2"
+          />
+        </div>
+        <div class="about-rt">
+          <p>ABOUT US</p>
+          <h1>Best Cleaning Services Provider Since 2001</h1>
+          <pre>          Est ante in nibh mauris cursus mattis molestie.</pre>
+          <ul>
+            <li>
+              <i class="fa-solid fa-square-check"></i>Loaded with Professional
+              and Honest Cleaners
+            </li>
+            <li>
+              <i class="fa-solid fa-square-check"></i>Provide the Finest
+              Cleaning Supplies
+            </li>
+            <li>
+              <i class="fa-solid fa-square-check"></i>100% Satisfaction Cleaning
+              Service
+            </li>
+            <li>
+              <i class="fa-solid fa-square-check"></i>We are bonded and insured
+            </li>
+          </ul>
+          <button class="btn1">More About Us</button>
+        </div>
+      </section>
+
+      <!--SERVICES-->
+      <section class="service">
+        <p>WHAT WE DO</p>
+        <h1>We Offer Different Services to</h1>
+        <h1>Clean Your Area</h1>
+        <div class="service-option">
+          <div class="clean">
+            <i class="fa-solid fa-industry"></i>
+            <h4>House Cleaning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              reiciendis labore quibusdam voluptatibus laboriosam optio rem
+            </p>
+          </div>
+          <div class="clean">
+            <i class="fa-solid fa-industry"></i>
+            <h4>House Cleaning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              reiciendis labore quibusdam voluptatibus laboriosam optio rem
+            </p>
+          </div>
+          <div class="clean">
+            <i class="fa-solid fa-industry"></i>
+            <h4>House Cleaning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              reiciendis labore quibusdam voluptatibus laboriosam optio rem
+            </p>
+          </div>
+          <div class="clean">
+            <i class="fa-solid fa-industry"></i>
+            <h4>House Cleaning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              reiciendis labore quibusdam voluptatibus laboriosam optio rem
+            </p>
+          </div>
+          <div class="clean">
+            <i class="fa-solid fa-industry"></i>
+            <h4>House Cleaning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              reiciendis labore quibusdam voluptatibus laboriosam optio rem
+            </p>
+          </div>
+          <div class="clean">
+            <i class="fa-solid fa-industry"></i>
+            <h4>House Cleaning</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              reiciendis labore quibusdam voluptatibus laboriosam optio rem
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--WHY CHOOSE US-->
+      <section class="why-us">
+        <div class="why-us-txt">
+          <p>WHY CHOOSE US</p>
+          <h1>Why Choose Our Service Provider</h1>
+          <div class="why-us-div">
+            <div class="why-us-divv">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h1>Satisfaction Guaranteed</h1>
+              <p>Integer vitae justo eget magna fermentum iaculis eu.</p>
+            </div>
+            <div class="why-us-divv">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h1>Satisfaction Guaranteed</h1>
+              <p>Integer vitae justo eget magna fermentum iaculis eu.</p>
+            </div>
+            <div class="why-us-divv">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h1>Satisfaction Guaranteed</h1>
+              <p>Integer vitae justo eget magna fermentum iaculis eu.</p>
+            </div>
+            <div class="why-us-divv">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h1>Satisfaction Guaranteed</h1>
+              <p>Integer vitae justo eget magna fermentum iaculis eu.</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-us-pic">
+          <img
+            src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/homepage1_whychoose.jpg"
+          />
+        </div>
+      </section>
+
+      <!--TEAM-->
+      <section class="team">
+        <p>OUR TEAM</p>
+        <h1>Our Expert Team</h1>
+        <div class="team-div">
+          <div class="team-div-divv">
+            <button class="btn1">Social Media</button>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/homepage1_whychoose.jpg"
+            />
+            <h2>Adam Leon</h2>
+            <p>Carpet Cleaning</p>
+          </div>
+          <div class="team-div-divv">
+            <button class="btn1">Social Media</button>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/homepage1_whychoose.jpg"
+            />
+            <h2>Adam Leon</h2>
+            <p>Carpet Cleaning</p>
+          </div>
+          <div class="team-div-divv">
+            <button class="btn1">Social Media</button>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/homepage1_whychoose.jpg"
+            />
+            <h2>Adam Leon</h2>
+            <p>Carpet Cleaning</p>
+          </div>
+        </div>
+        <button class="btn1">More Team</button>
+      </section>
+
+      <!--WORK SECTION-->
+      <section class="work">
+        <p>HOW WE WORK</p>
+        <h1>Puresh Working Process</h1>
+        <div class="work-img">
+          <div>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+            <div class="shape"><p>1</p></div>
+            <h2>Choose a Cleaning Plan</h2>
+            <p>
+              Est ante in nibh mauris cursus mattis molestie a. Tincidunt nunc
+              pulvinar sapien et ligula ullamcorper.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/cropped-view-of-cleaners-in-overalls-cleaning-apar-XXJP3SX.jpg"
+            />
+            <div class="shape"><p>2</p></div>
+            <h2>Choose a Cleaning Plan</h2>
+            <p>
+              Est ante in nibh mauris cursus mattis molestie a. Tincidunt nunc
+              pulvinar sapien et ligula ullamcorper.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/stylish-living-room-with-big-blue-sofa-with-pillow-L68UDJT.jpg"
+            />
+            <div class="shape"><p>3</p></div>
+            <h2>Choose a Cleaning Plan</h2>
+            <p>
+              Est ante in nibh mauris cursus mattis molestie a. Tincidunt nunc
+              pulvinar sapien et ligula ullamcorper.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--PRICING PLANS-->
+      <section class="pricing">
+        <p>PRICING PLANS</p>
+        <h1>We Offer Best Price to Help You</h1>
+        <div class="plans">
+          <div class="pricing-plans">
+            <h2>Basic</h2>
+            <h1>$45</h1>
+            <h3>/visit</h3>
+            <p><i class="fa-solid fa-check"></i>Egestas sed tempus urna</p>
+            <p><i class="fa-solid fa-check"></i>Turpis egestas sed temp</p>
+            <p><i class="fa-regular fa-xmark"></i>Egestas fringilla phase</p>
+            <p><i class="fa-regular fa-xmark"></i>Nunc mattis enim dolor</p>
+            <p><i class="fa-regular fa-xmark"></i>Lorem Ipsum dolor a ame</p>
+            <button class="btn1">Select Plan</button>
+          </div>
+          <div class="pricing-plans">
+            <h2>Standard</h2>
+            <h1>$75</h1>
+            <h3>/visit</h3>
+            <p><i class="fa-solid fa-check"></i>Egestas sed tempus urna</p>
+            <p><i class="fa-solid fa-check"></i>Turpis egestas sed temp</p>
+            <p><i class="fa-solid fa-check"></i>Egestas fringilla phase</p>
+            <p><i class="fa-solid fa-check"></i>Nunc mattis enim dolor</p>
+            <p><i class="fa-regular fa-xmark"></i>Lorem Ipsum dolor a ame</p>
+            <button class="btn1">Select Plan</button>
+          </div>
+          <div class="pricing-plans">
+            <h2>Super</h2>
+            <h1>$145</h1>
+            <h3>/visit</h3>
+            <p><i class="fa-solid fa-check"></i>Egestas sed tempus urna</p>
+            <p><i class="fa-solid fa-check"></i>Turpis egestas sed temp</p>
+            <p><i class="fa-solid fa-check"></i>Egestas fringilla phase</p>
+            <p><i class="fa-solid fa-check"></i>Nunc mattis enim dolor</p>
+            <p><i class="fa-solid fa-check"></i>Lorem Ipsum dolor a</p>
+            <button class="btn1">Select Plan</button>
+          </div>
+        </div>
+      </section>
+
+      <!--TESTIMONIAL-->
+      <section class="test">
+        <p>TESTIMONIAL</p>
+        <h1>What Says Our Happy Costumer</h1>
+        <div class="test-card">
+          <div class="div1">
+            <div class="test-card-profile">
+              <img
+                src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/smiling-businesswoman-with-a-perfect-smile-leaning-P9MR4DJ.png"
+              />
+              <div>
+                <h4>Roseanne</h4>
+                <p>Customers</p>
+              </div>
+            </div>
+            <p></p>
+            <p>
+              Parturient montes nascetur ridiculus mus mauris. Purus ut faucibus
+              pulvinar elementum integer enim sed faucibus turpis in eu.
+            </p>
+          </div>
+          <div class="div2">
+            <div class="test-card-profile">
+              <img
+                src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/smiling-businesswoman-with-a-perfect-smile-leaning-P9MR4DJ.png"
+              />
+              <div>
+                <h4>Roseanne</h4>
+                <p>Customers</p>
+              </div>
+            </div>
+            <p></p>
+            <p>
+              Parturient montes nascetur ridiculus mus mauris. Purus ut faucibus
+              pulvinar elementum integer enim sed faucibus turpis in eu.
+            </p>
+          </div>
+        </div>
+
+        <!--OUR PROJECTS-->
+        <div class="projects">
+          <p>OUR PROJECT</p>
+          <h1>See Our Project We Have Done</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="projects-images">
+          <div>
+            <h3 class="on-hover">Warehouse Cleaning</h3>
+            <p class="on-hover">London, UK</p>
+            <img
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 class="on-hover">Warehouse Cleaning</h3>
+            <p class="on-hover">London, UK</p>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 class="on-hover">Warehouse Cleaning</h3>
+            <p class="on-hover">London, UK</p>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 class="on-hover">Warehouse Cleaning</h3>
+            <p class="on-hover">London, UK</p>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 class="on-hover">Warehouse Cleaning</h3>
+            <p class="on-hover">London, UK</p>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3 class="on-hover">Warehouse Cleaning</h3>
+            <p class="on-hover">London, UK</p>
+            <img
+              src="https://templatekit.tokomoo.com/cleaningkit/wp-content/uploads/sites/34/2021/11/asian-couple-going-to-clean-apartment-looking-for-VEGYMLB.jpg"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+      <section class="footer">
+        <div class="foot-data">
+          <h1>Puresh</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium sunt laboriosam eaque tempora quidem. ?
+          </p>
+          <div class="social-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+        <div class="foot-data data-flex">
+          <div>
+            <ul>
+              <h3>Quick Links</h3>
+              <li>About</li>
+              <li>Service</li>
+              <li>Projects</li>
+              <li>Pricing & Rates</li>
+              <li>Team</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h3>Service</h3>
+              <li>House Cleaning</li>
+              <li>House Cleaning</li>
+              <li>House Cleaning</li>
+              <li>House Cleaning</li>
+              <li>House Cleaning</li>
+              <li>House Cleaning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-data">
+          <h2>Newsletter</h2>
+          <p>
+            Enter your email address to register to our newsletter subscription
+          </p>
+          <div class="diiv">
+            <input
+              type="email"
+              class="email"
+              title="Please Fill out field"
+              placeholder="Enter Your Email"
+            />
+            <button class="btn2">
+              <i class="fa-solid fa-newspaper"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </container>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
